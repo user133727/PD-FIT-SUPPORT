@@ -5,11 +5,11 @@
     
     <ol class="my-3">
       <li>Перейти в папку, где находится файл, по умолчанию он располагается в: C:\Users\Имя_пользователя\.ssh</li>
-      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc2/1.png">
+      <img src="{{ url_for('static', filename='images/doc2/' ~ '1.png') }}">
       <li>Открыть настройки файла “config”</li>
-      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc2/2.png">
+      <img src="{{ url_for('static', filename='images/doc2/' ~ '2.png') }}">
       <li>Убедиться что у всех пользователей стоят необходимые разрешения на работу с файлом</li>
-      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc2/3.png">
+      <img src="{{ url_for('static', filename='images/doc2/' ~ '3.png') }}">
       <li>В случае необходимости пересоздать файл или добавить необходимые пункты во вкладке “Разрешения”</li>
     </ol>
 

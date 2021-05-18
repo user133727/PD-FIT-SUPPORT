@@ -5,13 +5,13 @@
     
     <ol class="my-3">
       <li>Открываем “Панель управления”</li>
-      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc4/1.png">
+      <img src="{{ url_for('static', filename='images/doc4/' ~ '1.png') }}">
       <li>В поиске ищем “Учетные данные Windows”</li>
-      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc4/2.png">
+      <img src="{{ url_for('static', filename='images/doc4/' ~ '2.png') }}">
       <li>Находим github.com или gitlab.com</li>
-      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc4/3.png">
+      <img src="{{ url_for('static', filename='images/doc4/' ~ '3.png') }}">
       <li>Производим удаление или изменение данных учетной записи</li>
-      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc4/4.png">
+      <img src="{{ url_for('static', filename='images/doc4/' ~ '4.png') }}">
     </ol>
 
 {% endblock %}
