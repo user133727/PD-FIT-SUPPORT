@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-3">Работа с Git</h1>
+    
+    <p>В данном руководстве будут расписаны основные команды для работы с платформой Git, 
+       все операции будут проводиться локально (при этом, данные команды будут также актуальны и для работы с удаленным сервером).</p>
+
+    <ol class="my-3">
+      <li>Создание репозитория в Github</li>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/1.png">
+      <li>После создания репозитория, его необходимо привязать к папке</li>
+      <p>Открываем командную строку для работы</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/2.png">
+      <p>Копируем ссылку на наш репозиторий</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/3.png">
+      <p>Инициализируем Git</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/4.png">
+      <p>Привязываем репозиторий к папке (в конце ссылки необходимо добавить .git)</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/5.png">
+      <p>Загрузка файлов</p>
+      <li>После создания репозитория, его необходимо привязать к папке</li>
+      <p>Создадим тестовый файл и попробуем загрузить его в основную ветку (master) нашего репозитория</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/6.png">
+      <p>Команда git add - позволяет нам добавлять файлы, в данном примере мы добавляли один файл “test.txt”, в случае когда нам необходимо добавить в гит всё содержимое папки, а не только один файл, необходимо писать “git add .”<br>
+         Команда git commit -m “add test file” - добавление коммита к нашим файлам, в скобках мы указываем описание нашего коммита<br>
+         Команда git push -u origin master - загрузка всех закомиченных файлов на сайт, в случае если файлы необходимо загрузить на другую ветку, команда будет выглядеть следующий образом “git push -u origin имя_ветки”</p>
+      <p>Результат</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/7.png">
+      <li>Удаление файлов</li>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/8.png">
+      <p>Команда rm test.txt - удаление выбранного файла<br>
+         Далее по аналогии с добавлением файлов, нам необходимо закоммитить изменения и отослать всё на сайт</p>
+      <p>Результат</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/9.png">
+      <li>Возврат к коммиту (восстановление файлов)</li>
+      <p>Переходим во вкладку с нашими коммитами</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/10.png">
+      <p>Копируем id интересующего нас коммита</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/11.png">
+      <p>Вводим команду и вставляем скопированный id коммита</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/12.png">
+      <p>В открывшемся окне нажимаем сочетание клавиш shift + ж, вводим wq и жмём Enter</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/13.png">
+      <p>Результат</p>
+      <img src="/home/std/pd-2021-fit/help_site/app/static/images/doc3/14.png">
+    </ol>
+
+{% endblock %}

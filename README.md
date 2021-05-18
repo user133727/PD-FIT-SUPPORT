@@ -2,7 +2,9 @@
 
 Помощь в работе с хостингом fit.mospolytech.ru
 
-Ссылка на сайт проекта: http://pd-2021-fit.std-1201.ist.mospolytech.ru/
+Ссылка на целевую страницу проекта: http://pd-2021-fit.std-1201.ist.mospolytech.ru
+
+Ссылка на сайт с руководствами: http://faq-pd-fit.std-1201.ist.mospolytech.ru/
 
 Ссылка на документацию: https://docs.google.com/spreadsheets/d/1qGtFExNsNWbVHbkJHCO89Xy4uJgU80iah5dN__LLEes/edit#gid=0
 
