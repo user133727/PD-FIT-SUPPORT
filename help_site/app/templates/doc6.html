@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-3">Работа с commit’ами</h1>
+    
+    <p>Допустим, мы допустили ошибку при написании последнего commit’а и хотим его изменить.</p>
+    <img src="{{ url_for('static', filename='images/doc6/' ~ '1.png') }}">
+    <p>Для этого нам понадобится команда <b>git commit –amend –m “правильный commit</b>”. Пример данной команды представлен ниже.</p>
+    <img src="{{ url_for('static', filename='images/doc6/' ~ '2.png') }}">
+    <p>Для более детальной работы с commit’ами на понадобится команда <b>git rebase –i</b>.</p>
+    <img src="{{ url_for('static', filename='images/doc6/' ~ '3.png') }}">
+    <p>Далее у нас появятся наши commit’ы в списке, а ниже будет схема с командами.</p>
+    <img src="{{ url_for('static', filename='images/doc6/' ~ '4.png') }}">
+    <p>Все эти команды мы будем писать вместо слова pick в нашем списке commit’ов, как на примере ниже:</p>
+    <img src="{{ url_for('static', filename='images/doc6/' ~ '5.png') }}">
+    <p>Поподробнее разберемся с самими командами:<br>
+       <b>Pick</b> – означает, что мы уже используем этот commit.<br>
+       <b>Reword</b> – мы используем уже сделанный commit, но переименовываем его.<br>
+       <b>Edit</b> – изменение commit’а. Это означает, что когда git дойдет до нашего commit’а, git предложит выполнить какие либо изменения.<br>
+       <b>Squash</b> – означает, что наш commit будет объединен с предыдущим commit’ом.<br>
+       <b>Fixup</b> – тоже самое что и Squash, только нам не будет предложено изменение имя commit’а.<br>
+       <b>Exec</b> – выполнение скрипта для указанного commit’а. Сам же скрипт дописывается в конце строки и применяется для каждого файла в commit’е.<br>
+       <b>Drop</b> – удаление commit’а.<br></p>
+
+{% endblock %}
