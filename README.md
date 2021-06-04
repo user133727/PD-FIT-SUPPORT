@@ -2,7 +2,7 @@
 
 Помощь в работе с хостингом fit.mospolytech.ru
 
-Телеграм чат поддержки: @fit_support
+Телеграм чат поддержки: https://t.me/fit_support
 
 Ссылка на целевую страницу проекта: http://pd-2021-fit.std-1201.ist.mospolytech.ru
 
