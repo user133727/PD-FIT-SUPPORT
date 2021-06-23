@@ -8,6 +8,8 @@
 
 Ссылка на сайт с руководствами: http://faq-pd-fit.std-1201.ist.mospolytech.ru/
 
+Ссылка на отчётную документацию: https://drive.google.com/drive/folders/1ge4LkPeiXfi7-blx9Mzwb7TwbETp5MXh
+
 ## Участники
 
 | Учебная группа | Имя пользователя | ФИО                      |
