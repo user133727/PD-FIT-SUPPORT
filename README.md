@@ -4,7 +4,7 @@
 
 Телеграм чат поддержки: https://t.me/fit_support
 
-Ссылка на целевую страницу проекта: http://pd-fit-support.std-1201.ist.mospolytech.ru/
+Ссылка на целевую страницу проекта: http://pd-2021-2-fit-support.std-1201.ist.mospolytech.ru/
 
 Ссылка на сайт с руководствами: http://fit-support.std-1201.ist.mospolytech.ru/
 
