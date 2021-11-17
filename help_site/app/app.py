@@ -51,3 +51,8 @@ def doc8():
 def doc9():
     title = 'Техподдержка FIT'
     return render_template('doc9.html', title=title)
+
+@app.route('/templates/doc10')
+def doc10():
+    title = 'Техподдержка FIT'
+    return render_template('doc10.html', title=title)

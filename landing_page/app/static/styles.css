@@ -9,3 +9,14 @@ body {
 .avatar {
     max-width: 100%;
 }
+
+.my-card-deck {
+    justify-content: space-around;
+}
+
+.card-deck .my-card {
+    display: block;
+    min-width: 400px;
+    flex: 0 0 0%;
+}
+
