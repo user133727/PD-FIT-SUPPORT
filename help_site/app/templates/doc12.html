@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-3"><b>Подключение к хостингу с помощью Visual Studio Code</b></h1>
+    
+    <p>Для подключения к хостингу через VS Code требуется настроить
+      конфигурационный файл и запустить OpenVpn от администратора, в котором
+      вы будете подключаться, используя свой конфигурационный файл, который
+      можно скачать в личном кабинете - <a href="https://fit.mospolytech.ru/systems/vpn">https://fit.mospolytech.ru/systems/vpn</a>:
+    </p>
+    <img src="{{ url_for('static', filename='images/doc12/' ~ '1.png') }}">
+
+    <p>Конфигурационный файл необходимо поместить либо в папку куда был
+       установлен OpenVpn в директорию config:
+    </p>
+    <img src="{{ url_for('static', filename='images/doc12/' ~ '2.png') }}">
+    <p>Либо в папку расположенную по следующему пути:</p>
+    <img src="{{ url_for('static', filename='images/doc12/' ~ '3.png') }}">
+
+    <p>Также требуется установить расширение в VS Code под названием Remote -
+      SSH. Выглядит оно так:
+    </p>
+    <img src="{{ url_for('static', filename='images/doc12/' ~ '4.png') }}">
+
+    <p>Далее, для изменения конфигурационного файла требуется нажать на кнопку
+      находящуюся слева внизу экрана, выглядит она так: <img src="{{ url_for('static', filename='images/doc12/' ~ '5.png') }}">
+    </p>
+
+    <p>Затем в появившемся меню выбрать пункт Open SSH Congifuration File:</p>
+    <img src="{{ url_for('static', filename='images/doc12/' ~ '6.png') }}">
+    <p>После этого в следующем меню выбрать первый пункт:</p>
+    <img src="{{ url_for('static', filename='images/doc12/' ~ '7.png') }}">
+
+    <p>В открывшемся конфигурационном файле, необходимо дописать HostName и User 
+       (по желанию переименовать подключение в строке Host). 
+       HostName можно взять с сайта - <a href="https://fit.mospolytech.ru/systems/servers">https://fit.mospolytech.ru/systems/servers</a>, 
+       в строке «SSH/SFTP для VPN», User - всегда будет std:
+    </p>
+    <img src="{{ url_for('static', filename='images/doc12/' ~ '8.png') }}">
+    <p>После чего сохраняем конфигурационный файл.</p>
+
+    <p>Чтобы подключиться по SSH к хостингу требуется 
+       нажать кнопку <img src="{{ url_for('static', filename='images/doc12/' ~ '5.png') }}"> 
+       и в появившемся меню выбрать первый пункт:
+    </p>
+    <img src="{{ url_for('static', filename='images/doc12/' ~ '6.png') }}">
+    <p>Затем в следующем меню выбрать хост, к которому хотите подключиться:</p>
+    <img src="{{ url_for('static', filename='images/doc12/' ~ '9.png') }}">
+
+    <p>После чего в Visual Studio Code откроется новое окно с подключенным SSH. 
+       Первым делом вам потребуется ввести пароль от своего аккаунта 
+       <a href="https://fit.mospolytech.ru">https://fit.mospolytech.ru</a>.
+    </p>
+    <p>Если перед этим у вас появится меню с выбором операционной системы, 
+       используемой сервером, выбирайте Linux.
+    </p> 
+
+{% endblock %}
