@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="my-3"><b>Изменение приоритета сетевого адаптера в Windows 10</b></h1>
+    
+    <p>Может помочь в случаях когда соединение OpenVPN устанавливается, но не
+       работает (ping std-001.ist.mospolytech.ru возвращает ошибку).
+    </p>
+    <p>Первым делом необходимо проверить приоритеты сетевого адаптера
+       командой <b>route print</b>:
+    </p>
+    <img src="{{ url_for('static', filename='images/doc13/' ~ '1.png') }}">
+
+    <p>Необходимо добиться того, чтобы метрика у соединения OpenVPN
+       (172.20.0.0) была меньше чем у 0.0.0.0.
+    </p>
+    <p>Для этого нужно открыть в панели управления пункт Сетевые подключения:</p>
+    <img src="{{ url_for('static', filename='images/doc13/' ~ '2.png') }}">
+
+    <p>Далее у адаптера отвечающего за подключение OpenVPN открыть свойства:</p>
+    <img src="{{ url_for('static', filename='images/doc13/' ~ '3.png') }}">
+
+    <p>Выбрать свойства интернет протокола IPv4:</p>
+    <img src="{{ url_for('static', filename='images/doc13/' ~ '4.png') }}">
+
+    <p>Открыть расширенные настройки:</p>
+    <img src="{{ url_for('static', filename='images/doc13/' ~ '5.png') }}">
+
+    <p>Выставить метрику вручную:</p>
+    <img src="{{ url_for('static', filename='images/doc13/' ~ '6.png') }}">
+
+    <p>После чего необходимо переподключиться к OpenVPN, предварительно
+       закрыв окна со свойствами адаптера OpenVPN.
+    </p>
+
+{% endblock %}
