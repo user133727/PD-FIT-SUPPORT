@@ -4,6 +4,11 @@
 
 body {
     font-size: 20px;
+    background-color: #f5f5f5;
+    font-family: 'Gilroy';
+    background-image: url('https://sun9-77.userapi.com/impg/Z-NJTfqVJKjlmkhklW84TYIbpXrOHsEwqMbD2A/yaKWY9idX38.jpg?size=1920x1080&quality=96&sign=29153bc3438592ff9c7cf6d150750ae8&type=album');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .avatar {
