@@ -54,7 +54,7 @@
 
 ## План работы
 
-![Gantt Chart](https://sun9-45.userapi.com/impg/ICnIadq6Kg2h_k1hjUCkcpC_roH3KHImAQUXhw/jixVQRo3Xhc.jpg?size=1440x782&quality=96&sign=e93d0f411b546a81f0c88e65d59f6735&type=album)​
+![Gantt Chart](https://sun9-52.userapi.com/impg/eAQsKYQkLEbNa9jltyPr8faNKfU7CvxbPb0upg/LrZvcSJXSaA.jpg?size=1440x590&quality=96&sign=ee073ee294514afdb079ddfd2b463dbd&type=album)​
 
 ## Ссылки
 
