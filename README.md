@@ -1,14 +1,16 @@
 # Проект: «Техподдержка FIT»
 
-Помощь в работе с хостингом fit.mospolytech.ru
+## О проекте
 
-Телеграм чат поддержки: https://t.me/fit_support
+### Цель проекта
+Написание технической документации и методических руководств для студентов, а также создание инструкций на IT-темы.
 
-Ссылка на целевую страницу проекта: http://pd-2021-2-fit-support.std-1201.ist.mospolytech.ru/
+### Задачи проекта:
 
-Ссылка на сайт с руководствами: http://fit-support.std-1201.ist.mospolytech.ru/
-
-Ссылка на отчётную документацию: https://drive.google.com/drive/folders/1fnVlFqRxCPxeuc3V7xNFmEtfiS08UiQ5
+* Написание инструкций;
+* Разбор нестандартных ситуаций, связанных с работой хостинга;
+* Создание и наполнение страниц сайтов;
+* Оказание помощи студентам в индивидуальном порядке.
 
 ## Участники
 
@@ -49,3 +51,19 @@
 * Разработка и наполнение сайтов;
 * Оформление документации;
 * Помощь студентам.
+
+## План работы
+
+![Gantt Chart](https://sun9-45.userapi.com/impg/ICnIadq6Kg2h_k1hjUCkcpC_roH3KHImAQUXhw/jixVQRo3Xhc.jpg?size=1440x782&quality=96&sign=e93d0f411b546a81f0c88e65d59f6735&type=album)​
+
+## Ссылки
+
+Помощь в работе с хостингом fit.mospolytech.ru
+
+Телеграм чат поддержки: https://t.me/fit_support
+
+Ссылка на целевую страницу проекта: http://pd-2021-2-fit-support.std-1201.ist.mospolytech.ru/
+
+Ссылка на сайт с руководствами: http://fit-support.std-1201.ist.mospolytech.ru/
+
+Ссылка на отчётную документацию: https://drive.google.com/drive/folders/1fnVlFqRxCPxeuc3V7xNFmEtfiS08UiQ5
