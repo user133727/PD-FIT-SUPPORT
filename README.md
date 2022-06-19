@@ -16,24 +16,24 @@
 
 | Учебная группа | Имя пользователя | ФИО                      |
 |----------------|------------------|--------------------------|
-| 191-351        | @vellarity       | Балдуев Н. А.            |
 | 191-351        | @user133727      | Ефремов Н. А. (1999)     |
+| 191-351        | @vellarity       | Балдуев Н. А.            |
 | 191-351        | @twist9743       | Лунин И. А.              |
 | 191-351        | @orion1006       | Давлетбаев И. А.         |
 
 ## Распределение задач
 
-### Балдуев Н. А. 
+### Ефремов Н. А. (1999)
 
 * Тимлид;
-* Написание инструкций;
+* Ответственный за документацию;
 * Разработка и наполнение сайтов;
 * Оформление документации;
 * Помощь студентам.
 
-### Ефремов Н. А. (1999)
+### Балдуев Н. А. 
 
-* Ответственный за документацию;
+* Написание инструкций;
 * Разработка и наполнение сайтов;
 * Оформление документации;
 * Помощь студентам.
@@ -54,7 +54,7 @@
 
 ## План работы
 
-![Gantt Chart](https://sun9-52.userapi.com/impg/eAQsKYQkLEbNa9jltyPr8faNKfU7CvxbPb0upg/LrZvcSJXSaA.jpg?size=1440x590&quality=96&sign=ee073ee294514afdb079ddfd2b463dbd&type=album)​
+![Gantt Chart](https://sun9-west.userapi.com/sun9-13/s/v1/ig2/hrCwrYiNxNKy0qcNzC5TsCTP8bhoT_-d3xYKpDDRLSjKRXpsdxQhMhSGBPv2D8LcybGfKmKwBT4GY3hQTL3LLerw.jpg?size=1521x600&quality=96&type=album)​
 
 ## Ссылки
 
@@ -66,4 +66,4 @@
 
 Ссылка на сайт с руководствами: http://fit-support.std-1201.ist.mospolytech.ru/
 
-Ссылка на отчётную документацию: https://drive.google.com/drive/folders/1fnVlFqRxCPxeuc3V7xNFmEtfiS08UiQ5
+Ссылка на отчётную документацию: https://drive.google.com/drive/folders/1ADJKuJH_FFEV2ZnirEf8ZQpLAHvm6Fd7
